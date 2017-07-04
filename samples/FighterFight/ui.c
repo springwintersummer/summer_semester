@@ -9,12 +9,13 @@
 #define CLASS_NAME_FIGHT	"fight_class"
 #define CLASS_NAME_FLYS		"flys_class"
 
-#define BITMAP_FILE_BK		"cloud.bmp"
+#define BITMAP_FILE_BK		"sky.bmp"
 
 #define TIMER_ID			12340                                                           
-#define TRANS_BK_COLOR		RGB(255,255,255)
-#define FIGHTER_HEIGHT		50
-#define FIGHTER_WIDTH		50
+#define TRANS_BK_COLOR		RGB(34,56,78)
+//RGB(255,255,255)
+#define FIGHTER_HEIGHT		80//50
+#define FIGHTER_WIDTH		80//50
 
 
 #define FIGHTER_MOVE_STEP	5		// 飞机在方向键的作用下，每次移动的像素；
